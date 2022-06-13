@@ -1,11 +1,11 @@
 /*
- * Copyright 2019 Google
+ * Copyright 2022 Google
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
+ *      http://www.apache.org/licenses/LICENSE2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -14,16 +14,19 @@
  * limitations under the License.
  */
 
-#import <TargetConditionals.h>
-#if TARGET_OS_IOS
-
 #import <Foundation/Foundation.h>
 
-#pragma mark - Multi Factor ID constants
+#import "FIRMultiFactorAssertion.h"
 
-NSString *const FIRPhoneMultiFactorID = @"1";
+NS_ASSUME_NONNULL_BEGIN
 
-NSString *const FIRTOTPMultiFactorID = @"2";
+/** @class FIRTOTPMultiFactorAssertion
+    @brief The subclass of base class FIRMultiFactorAssertion, used to assert ownership of a totp
+        second factor.
+*/
+NS_SWIFT_NAME(TOTPMultiFactorAssertion)
+@interface FIRTOTPMultiFactorAssertion : FIRMultiFactorAssertion
 
+@end
 
-#endif
+NS_ASSUME_NONNULL_END
