@@ -410,15 +410,29 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)authorizationController:(ASAuthorizationController *)controller didCompleteWithAuthorization:(ASAuthorization *)authorization API_AVAILABLE(ios(13.0)) {
   ASAuthorizationAppleIDCredential* appleIDCredential = authorization.credential;
   NSString *IDToken = [NSString stringWithUTF8String:[appleIDCredential.identityToken bytes]];
+  NSString *authorizationCode = [NSString stringWithUTF8String:[appleIDCredential.authorizationCode bytes]];
+
+  NSLog(@"%@", IDToken);
   FIROAuthCredential *credential = [FIROAuthProvider credentialWithProviderID:@"apple.com"
                                                                       IDToken:IDToken
                                                                      rawNonce:self.appleRawNonce
                                                                   accessToken:nil];
+    NSString* displayName = [NSString stringWithFormat:@"%@ %@", appleIDCredential.fullName.givenName, appleIDCredential.fullName.familyName];
+    NSLog(@"0 %@", displayName);
 
   if ([appleIDCredential.state isEqualToString:@"signIn"]) {
     [FIRAuth.auth signInWithCredential:credential completion:^(FIRAuthDataResult * _Nullable authResult, NSError * _Nullable error) {
       if (!error) {
+        NSLog(@"1 %@", [FIRAuth auth].currentUser.displayName);
         NSLog(@"%@", authResult.description);
+          FIRUserProfileChangeRequest *changeRequest = [[FIRAuth auth].currentUser profileChangeRequest];
+          changeRequest.displayName = @"displayName";
+          [changeRequest commitChangesWithCompletion:^(NSError *_Nullable error) {
+          NSLog(@"2 %@", [FIRAuth auth].currentUser.displayName);
+          }];
+          
+        //
+//        [[FIRAuth auth].currentUser ]
       } else {
         NSLog(@"%@", error.description);
       }

@@ -54,7 +54,7 @@ NS_SWIFT_NAME(TOTPSecret)
  @param issuer issuer of the TOTP(likely the app name).
  @returns A QRCode URL string.
  */
-- (NSString *) generateQrCodeURLWithAccountName:(NSString *)accountName issuer:(NSString *)issuer;
+- (NSString *) generateQRCodeURLWithAccountName:(NSString *)accountName issuer:(NSString *)issuer;
 
 /**
  @brief Opens the specified QR Code URL in the iCloud Keychain password manager.

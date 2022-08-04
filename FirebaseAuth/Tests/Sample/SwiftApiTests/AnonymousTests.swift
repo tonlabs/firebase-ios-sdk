@@ -39,6 +39,8 @@ class AnonymousTests: TestsBase {
         XCTFail("Missing currentUser after anonymous sign in")
       }
       try await deleteCurrentUserAsync()
+        
+        
     }
   #endif
 }

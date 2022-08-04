@@ -21,6 +21,14 @@ import XCTest
 class TestsBase: XCTestCase {
   static let kExpectationsTimeout = 10.0
 
+//    #if compiler(>=5.5) && canImport(_Concurrency)
+//      @available(iOS 15, tvOS 15, macOS 12, watchOS 8, *)
+//      func getMultiFatorSession() async throws {
+//        let auth = Auth.auth()
+//          try await auth.currentUser?.multiFactor.getSession()
+//      }
+//    #endif
+
   #if compiler(>=5.5) && canImport(_Concurrency)
     @available(iOS 15, tvOS 15, macOS 12, watchOS 8, *)
     func signInAnonymouslyAsync() async throws {
