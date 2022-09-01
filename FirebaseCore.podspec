@@ -33,8 +33,7 @@ Firebase Core includes FIRApp and FIROptions which provide central configuration
 
   s.source_files = [
     'FirebaseCore/Sources/**/*.[mh]',
-    'FirebaseCore/Extension/*.h',
-    'Interop/CoreDiagnostics/Public/*.h'
+    'FirebaseCore/Extension/*.h'
   ]
 
   s.swift_version = '5.3'

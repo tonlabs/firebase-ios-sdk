@@ -166,7 +166,7 @@ struct ZipBuilder {
   func buildAndAssembleZip(podsToInstall: [CocoaPodUtils.VersionedPod],
                            includeCarthage: Bool,
                            includeDependencies: Bool) ->
-    ([String: CocoaPodUtils.PodInfo], [String: [URL]], URL?) {
+    ([String: CocoaPodUtils.PodInfo], [String: [URL]]) {
     // Remove CocoaPods cache so the build gets updates after a version is rebuilt during the
     // release process. Always do this, since it can be the source of subtle failures on rebuilds.
     CocoaPodUtils.cleanPodCache()
@@ -333,6 +333,7 @@ struct ZipBuilder {
                                                     platforms: ["ios"]))
 
     print("Final expected versions for the Zip file: \(podsToInstall)")
+
     let (installedPods, frameworks, carthageGoogleUtilitiesXcframeworkFirebase) =
       buildAndAssembleZip(podsToInstall: podsToInstall,
                           includeCarthage: true,
@@ -358,10 +359,11 @@ struct ZipBuilder {
     // Replace Core Diagnostics
     var carthageFrameworks = frameworks
     carthageFrameworks["GoogleUtilities"] = [carthageGoogleUtilitiesXcframework]
+
     let carthageDir = try assembleDistributions(withPackageKind: "CarthageFirebase",
                                                 podsToInstall: podsToInstall,
                                                 installedPods: installedPods,
-                                                frameworksToAssemble: carthageFrameworks,
+                                                frameworksToAssemble: frameworks,
                                                 firebasePod: firebasePod)
 
     return ReleaseArtifacts(firebaseVersion: firebasePod.version,
