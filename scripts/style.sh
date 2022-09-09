@@ -113,7 +113,7 @@ files=$(
 (
   FirebaseRemoteConfigSwift/Apps/SwiftUISample/SwiftUISample/ContentView.swift
   FirebaseRemoteConfigSwift/Apps/SwiftUISample/SwiftUISample/SwiftUISampleApp.swift
-  FirebaseRemoteConfigSwift/Sources/PropertyWrapper/RemoteConfigProperty.swift needs
+  FirebaseRemoteConfigSwift/Sources/PropertyWrapper/RemoteConfigProperty.swift
   FirebaseRemoteConfigSwift/Sources/PropertyWrapper/RemoteConfigValueObservable.swift
   FirebaseRemoteConfigSwift/Tests/SwiftAPI/PropertyWrapperDefaultConfigsTests.swift
   FirebaseRemoteConfigSwift/Tests/SwiftAPI/PropertyWrapperTests.swift
