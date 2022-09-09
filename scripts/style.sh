@@ -111,18 +111,12 @@ fi
 
 files=$(
 (
-  if [[ $# -gt 0 ]]; then
-    if git rev-parse "$1" -- >& /dev/null; then
-      # Argument was a branch name show files changed since that branch
-      git diff --name-only --relative --diff-filter=ACMR "$1"
-    else
-      # Otherwise assume the passed things are files or directories
-      find "$@" -type f
-    fi
-  else
-    # Do everything by default
-    find . -type f
-  fi
+  FirebaseRemoteConfigSwift/Apps/SwiftUISample/SwiftUISample/ContentView.swift
+  FirebaseRemoteConfigSwift/Apps/SwiftUISample/SwiftUISample/SwiftUISampleApp.swift
+  FirebaseRemoteConfigSwift/Sources/PropertyWrapper/RemoteConfigProperty.swift needs
+  FirebaseRemoteConfigSwift/Sources/PropertyWrapper/RemoteConfigValueObservable.swift
+  FirebaseRemoteConfigSwift/Tests/SwiftAPI/PropertyWrapperDefaultConfigsTests.swift
+  FirebaseRemoteConfigSwift/Tests/SwiftAPI/PropertyWrapperTests.swift
 ) | sed -E -n '
 # find . includes a leading "./" that git does not include
 s%^./%%
