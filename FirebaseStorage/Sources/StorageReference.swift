@@ -174,6 +174,7 @@ import Foundation
 
   /**
    * Asynchronously uploads a file to the currently specified `StorageReference`.
+   * `putData` should be used instead of `putFile` in Extensions.
    * - Parameters:
    *   - fileURL: A URL representing the system file path of the object to be uploaded.
    *   - metadata: `StorageMetadata` containing additional information (MIME type, etc.)
@@ -188,6 +189,7 @@ import Foundation
   /**
    * Asynchronously uploads a file to the currently specified `StorageReference`,
    * without additional metadata.
+   * `putData` should be used instead of `putFile` in Extensions.
    * @param fileURL A URL representing the system file path of the object to be uploaded.
    * @return An instance of StorageUploadTask, which can be used to monitor or manage the upload.
    */
@@ -197,6 +199,7 @@ import Foundation
 
   /**
    * Asynchronously uploads a file to the currently specified `StorageReference`.
+   * `putData` should be used instead of `putFile` in Extensions.
    * - Parameters:
    *   - fileURL: A URL representing the system file path of the object to be uploaded.
    *   - metadata: `StorageMetadata` containing additional information (MIME type, etc.)
@@ -410,15 +413,15 @@ import Foundation
    *       the current `StorageReference`.
    */
   @objc(listAllWithCompletion:)
-  open func listAll(completion: @escaping ((_: StorageListResult?, _: NSError?) -> Void)) {
+  open func listAll(completion: @escaping ((_: StorageListResult?, _: Error?) -> Void)) {
     let fetcherService = storage.fetcherServiceForApp
     var prefixes = [StorageReference]()
     var items = [StorageReference]()
 
     weak var weakSelf = self
 
-    var paginatedCompletion: ((_: StorageListResult?, _: NSError?) -> Void)?
-    paginatedCompletion = { (_ listResult: StorageListResult?, _ error: NSError?) in
+    var paginatedCompletion: ((_: StorageListResult?, _: Error?) -> Void)?
+    paginatedCompletion = { (_ listResult: StorageListResult?, _ error: Error?) in
       if let error = error {
         completion(nil, error)
         return
