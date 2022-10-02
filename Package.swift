@@ -1,4 +1,5 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.6
+// TODO(ncooke3): Figure out above versioning requirement.
 // The swift-tools-version declares the minimum version of Swift required to
 // build this package.
 
@@ -150,7 +151,7 @@ let package = Package(
       url: "https://github.com/google/GoogleAppMeasurement.git",
       // Note that CI changes the version to the head of main for CI.
       // See scripts/setup_spm_tests.sh.
-      .exact("10.0.0")
+      .branch("main")
     ),
     .package(
       name: "GoogleDataTransport",
@@ -1254,7 +1255,15 @@ let package = Package(
         .headerSearchPath("../../.."),
       ]
     ),
-
+    .plugin(
+      name: "CodeFormatter",
+      capability: .command(
+        intent: .sourceCodeFormatting(),
+        permissions: [
+          .writeToPackageDirectory(reason: "Format code based on repo style guide.")
+        ]
+      )
+    ),
   ],
   cLanguageStandard: .c99,
   cxxLanguageStandard: CXXLanguageStandard.gnucxx14
