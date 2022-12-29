@@ -13,7 +13,6 @@
 // limitations under the License.
 
 import FirebaseRemoteConfig
-import FirebaseRemoteConfigSwift
 
 import XCTest
 
@@ -185,10 +184,10 @@ import XCTest
       // More details in RCNRemoteConfigTest.m
       var findPlist: String?
       #if SWIFT_PACKAGE
-        findPlist = Bundle.module.path(forResource: "Defaults-testInfo", ofType: "plist")
+        findPlist = Bundle.module.path(forResource: "Swift-Defaults-testInfo", ofType: "plist")
       #else
         for b in Bundle.allBundles {
-          findPlist = b.path(forResource: "Defaults-testInfo", ofType: "plist")
+          findPlist = b.path(forResource: "Swift-Defaults-testInfo", ofType: "plist")
           if findPlist != nil {
             break
           }

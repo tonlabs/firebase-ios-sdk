@@ -15,7 +15,6 @@
  */
 
 import Foundation
-import FirebaseRemoteConfig
 import FirebaseSharedSwift
 
 public enum RemoteConfigValueCodableError: Error {

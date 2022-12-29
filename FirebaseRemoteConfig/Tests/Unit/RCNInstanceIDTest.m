@@ -212,6 +212,10 @@ typedef NS_ENUM(NSInteger, RCNTestRCInstance) {
   [self setUpConfigMock];
 }
 
+- (void)setUp {
+    [FIRApp resetApps];
+}
+
 - (void)tearDown {
   [_DBManager removeDatabaseOnDatabaseQueueAtPath:_DBPath];
   [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:_userDefaultsSuiteName];

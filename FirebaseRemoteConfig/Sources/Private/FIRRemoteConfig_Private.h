@@ -14,7 +14,12 @@
  * limitations under the License.
  */
 
-#import <FirebaseRemoteConfig/FIRRemoteConfig.h>
+//#import <FirebaseRemoteConfig/FIRRemoteConfig.h>
+//#import "FirebaseRemoteConfig/Sources/Public/FirebaseRemoteConfig/FIRRemoteConfig.h"
+//#import "FIRRemoteConfig.h"
+//#import <Public/FirebaseRemoteConfig/FIRRemoteConfig.h>
+#import "../Public/FirebaseRemoteConfig/FIRRemoteConfig.h"
+
 #import "RCNConfigSettings.h"  // This import is needed to expose settings for the Swift API tests.
 
 @class FIROptions;

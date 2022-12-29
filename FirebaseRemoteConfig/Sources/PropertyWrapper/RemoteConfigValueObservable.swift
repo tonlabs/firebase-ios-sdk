@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-import FirebaseRemoteConfig
 import FirebaseCore
 import SwiftUI
 

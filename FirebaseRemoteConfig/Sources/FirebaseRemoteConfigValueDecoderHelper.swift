@@ -15,7 +15,6 @@
  */
 
 import Foundation
-import FirebaseRemoteConfig
 import FirebaseSharedSwift
 
 /// Implement the FirebaseRemoteConfigValueDecoding protocol for the shared Firebase decoder to

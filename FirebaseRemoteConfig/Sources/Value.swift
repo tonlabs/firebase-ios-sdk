@@ -15,7 +15,6 @@
  */
 
 import Foundation
-import FirebaseRemoteConfig
 
 /// Implements subscript overloads to enable Remote Config values to be accessed
 /// in a type-safe way directly from the current config.

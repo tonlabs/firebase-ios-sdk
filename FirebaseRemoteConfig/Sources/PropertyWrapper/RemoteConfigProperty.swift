@@ -14,7 +14,6 @@
  * limitations under the License.
  */
 
-import FirebaseRemoteConfig
 import SwiftUI
 
 /// A property wrapper that listens to a Remote Config value.
