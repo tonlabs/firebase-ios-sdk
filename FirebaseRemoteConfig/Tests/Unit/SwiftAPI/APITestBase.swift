@@ -99,7 +99,7 @@ class APITestBase: XCTestCase {
     }
 
     // Uncomment for verbose debug logging.
-    // FirebaseConfiguration.shared.setLoggerLevel(FirebaseLoggerLevel.debug)
+    FirebaseConfiguration.shared.setLoggerLevel(FirebaseLoggerLevel.debug)
   }
 
   override func tearDown() {
