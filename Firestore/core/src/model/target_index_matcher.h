@@ -24,7 +24,7 @@
 #include "Firestore/core/src/core/order_by.h"
 #include "Firestore/core/src/core/target.h"
 #include "Firestore/core/src/model/field_index.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

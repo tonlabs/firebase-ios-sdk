@@ -37,7 +37,7 @@
 #include "Firestore/core/src/remote/remote_store.h"
 #include "Firestore/core/src/util/random_access_queue.h"
 #include "Firestore/core/src/util/status.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

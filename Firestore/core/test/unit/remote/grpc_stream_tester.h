@@ -33,12 +33,12 @@
 #include "Firestore/core/src/remote/grpc_unary_call.h"
 #include "Firestore/core/src/util/async_queue.h"
 #include "Firestore/core/src/util/executor.h"
-#include "absl/types/optional.h"
-#include "grpcpp/client_context.h"
-#include "grpcpp/completion_queue.h"
-#include "grpcpp/create_channel.h"
-#include "grpcpp/generic/generic_stub.h"
-#include "grpcpp/support/status_code_enum.h"
+#include "abseil/types/optional.h"
+#include "grpc-c++/client_context.h"
+#include "grpc-c++/completion_queue.h"
+#include "grpc-c++/create_channel.h"
+#include "grpc-c++/generic/generic_stub.h"
+#include "grpc-c++/support/status_code_enum.h"
 
 namespace firebase {
 namespace firestore {

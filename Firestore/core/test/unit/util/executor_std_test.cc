@@ -17,7 +17,7 @@
 #include "Firestore/core/src/util/executor_std.h"
 
 #include "Firestore/core/test/unit/util/executor_test.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

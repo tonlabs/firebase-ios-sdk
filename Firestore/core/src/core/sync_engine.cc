@@ -36,7 +36,7 @@
 #include "Firestore/core/src/util/async_queue.h"
 #include "Firestore/core/src/util/log.h"
 #include "Firestore/core/src/util/status.h"
-#include "absl/strings/match.h"
+#include "abseil/strings/match.h"
 
 namespace firebase {
 namespace firestore {

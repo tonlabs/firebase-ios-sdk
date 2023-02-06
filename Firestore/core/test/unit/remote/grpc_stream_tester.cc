@@ -27,7 +27,7 @@
 #include "Firestore/core/src/util/hard_assert.h"
 #include "Firestore/core/src/util/string_format.h"
 #include "Firestore/core/test/unit/testutil/async_testing.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

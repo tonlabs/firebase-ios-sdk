@@ -19,8 +19,8 @@
 #include "Firestore/core/src/util/warnings.h"
 
 SUPPRESS_COMMA_WARNINGS_BEGIN()
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "abseil/time/clock.h"
+#include "abseil/time/time.h"
 SUPPRESS_END()
 
 namespace firebase {

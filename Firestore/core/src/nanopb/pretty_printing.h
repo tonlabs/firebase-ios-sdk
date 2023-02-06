@@ -21,8 +21,8 @@
 
 #include <string>
 
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/str_cat.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

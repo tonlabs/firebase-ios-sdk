@@ -24,7 +24,7 @@
 #include <vector>
 
 #include "Firestore/core/src/util/secure_random.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

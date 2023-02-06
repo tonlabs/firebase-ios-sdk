@@ -25,7 +25,7 @@
 #include "Firestore/core/src/local/leveldb_persistence.h"
 #include "Firestore/core/src/local/local_documents_view.h"
 #include "Firestore/core/src/model/model_fwd.h"
-#include "absl/strings/match.h"
+#include "abseil/strings/match.h"
 
 namespace firebase {
 namespace firestore {

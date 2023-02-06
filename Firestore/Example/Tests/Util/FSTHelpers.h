@@ -22,7 +22,7 @@
 #include "Firestore/Protos/nanopb/google/firestore/v1/document.nanopb.h"
 #include "Firestore/core/src/model/model_fwd.h"
 #include "Firestore/core/src/nanopb/message.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 @class FIRGeoPoint;
 @class FSTDocumentKeyReference;

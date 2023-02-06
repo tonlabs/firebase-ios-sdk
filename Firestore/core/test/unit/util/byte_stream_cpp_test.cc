@@ -19,7 +19,7 @@
 #include <sstream>
 
 #include "Firestore/core/src/util/byte_stream_cpp.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

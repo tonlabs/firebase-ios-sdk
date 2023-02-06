@@ -29,7 +29,7 @@
 #include "Firestore/core/src/local/reference_delegate.h"
 #include "Firestore/core/src/local/sizer.h"
 #include "Firestore/core/src/local/target_data.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

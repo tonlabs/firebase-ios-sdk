@@ -27,7 +27,7 @@
 
 #include "Firestore/core/include/firebase/firestore/firestore_errors.h"
 #include "Firestore/core/src/util/status_fwd.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -24,9 +24,9 @@
 #include "Firestore/core/src/util/no_destructor.h"
 #include "Firestore/core/src/util/status.h"
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/str_replace.h"
-#include "absl/strings/str_split.h"
+#include "abseil/strings/str_join.h"
+#include "abseil/strings/str_replace.h"
+#include "abseil/strings/str_split.h"
 
 namespace firebase {
 namespace firestore {

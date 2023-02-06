@@ -16,7 +16,7 @@
 
 #include "Firestore/core/src/remote/firebase_metadata_provider_noop.h"
 
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

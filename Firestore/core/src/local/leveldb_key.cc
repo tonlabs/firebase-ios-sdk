@@ -23,10 +23,10 @@
 #include "Firestore/core/src/model/mutation_batch.h"
 #include "Firestore/core/src/util/hard_assert.h"
 #include "Firestore/core/src/util/ordered_code.h"
-#include "absl/base/attributes.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_cat.h"
-#include "absl/types/optional.h"
+#include "abseil/base/attributes.h"
+#include "abseil/strings/escaping.h"
+#include "abseil/strings/str_cat.h"
+#include "abseil/types/optional.h"
 
 using firebase::firestore::model::DocumentKey;
 using firebase::firestore::model::ResourcePath;

@@ -18,7 +18,7 @@
 #define FIRESTORE_CORE_SRC_REMOTE_GRPC_UTIL_H_
 
 #include "Firestore/core/src/util/status_fwd.h"
-#include "grpcpp/support/status.h"
+#include "grpc-c++/support/status.h"
 
 namespace firebase {
 namespace firestore {

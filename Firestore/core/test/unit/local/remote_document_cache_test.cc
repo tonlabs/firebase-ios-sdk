@@ -32,8 +32,8 @@
 #include "Firestore/core/src/nanopb/message.h"
 #include "Firestore/core/src/util/string_apple.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "abseil/strings/string_view.h"
+#include "abseil/types/optional.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

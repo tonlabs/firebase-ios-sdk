@@ -36,9 +36,9 @@
 #include "Firestore/core/src/util/async_queue.h"
 #include "Firestore/core/src/util/executor.h"
 #include "Firestore/core/src/util/status_fwd.h"
-#include "absl/strings/string_view.h"
-#include "grpcpp/completion_queue.h"
-#include "grpcpp/support/status.h"
+#include "abseil/strings/string_view.h"
+#include "grpc-c++/completion_queue.h"
+#include "grpc-c++/support/status.h"
 
 namespace firebase {
 namespace firestore {

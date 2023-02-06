@@ -30,7 +30,7 @@
 #include <utility>
 
 #include "Firestore/core/src/util/executor.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 #if !defined(__OBJC__)
 // `dispatch_queue_t` gets defined to different types when compiled in C++ or

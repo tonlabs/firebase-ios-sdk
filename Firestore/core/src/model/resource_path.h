@@ -23,7 +23,7 @@
 
 #include "Firestore/core/src/model/base_path.h"
 #include "Firestore/core/src/util/comparison.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

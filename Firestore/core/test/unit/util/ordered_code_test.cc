@@ -19,7 +19,7 @@
 #include <limits>
 
 #include "Firestore/core/src/util/secure_random.h"
-#include "absl/base/casts.h"
+#include "abseil/base/casts.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

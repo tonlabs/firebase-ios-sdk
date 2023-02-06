@@ -52,7 +52,7 @@
 #include "Firestore/core/test/unit/remote/create_noop_connectivity_monitor.h"
 #include "Firestore/core/test/unit/testutil/async_testing.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 using firebase::Timestamp;
 using firebase::firestore::google_firestore_v1_Value;

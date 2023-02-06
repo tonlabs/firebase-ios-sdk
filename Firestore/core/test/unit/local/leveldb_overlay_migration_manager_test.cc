@@ -27,7 +27,7 @@
 #include "Firestore/core/test/unit/local/counting_query_engine.h"
 #include "Firestore/core/test/unit/local/persistence_testing.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 #include "leveldb/db.h"

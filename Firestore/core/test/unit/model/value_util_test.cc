@@ -27,7 +27,7 @@
 #include "Firestore/core/test/unit/testutil/equals_tester.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
 #include "Firestore/core/test/unit/testutil/time_testing.h"
-#include "absl/base/casts.h"
+#include "abseil/base/casts.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

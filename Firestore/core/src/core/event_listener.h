@@ -24,7 +24,7 @@
 #include "Firestore/core/src/util/executor.h"
 #include "Firestore/core/src/util/status_fwd.h"
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

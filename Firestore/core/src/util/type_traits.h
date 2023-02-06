@@ -20,7 +20,7 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/meta/type_traits.h"
+#include "abseil/meta/type_traits.h"
 
 namespace firebase {
 namespace firestore {

@@ -21,7 +21,7 @@
 
 #include "Firestore/core/src/util/async_queue.h"
 #include "Firestore/core/src/util/executor.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

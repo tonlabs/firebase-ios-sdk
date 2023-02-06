@@ -23,7 +23,7 @@
 #include "Firestore/core/src/model/field_path.h"
 #include "Firestore/core/src/util/hard_assert.h"
 #include "Firestore/core/src/util/string_format.h"
-#include "absl/strings/str_join.h"
+#include "abseil/strings/str_join.h"
 
 namespace firebase {
 namespace firestore {

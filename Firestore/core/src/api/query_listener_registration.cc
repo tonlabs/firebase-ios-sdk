@@ -22,7 +22,7 @@
 #include "Firestore/core/src/core/firestore_client.h"
 #include "Firestore/core/src/core/query_listener.h"
 #include "Firestore/core/src/core/view_snapshot.h"
-#include "absl/synchronization/mutex.h"
+#include "abseil/synchronization/mutex.h"
 
 namespace firebase {
 namespace firestore {

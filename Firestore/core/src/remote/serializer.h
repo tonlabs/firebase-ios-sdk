@@ -41,8 +41,8 @@
 #include "Firestore/core/src/remote/watch_change.h"
 #include "Firestore/core/src/util/read_context.h"
 #include "Firestore/core/src/util/status_fwd.h"
-#include "absl/base/attributes.h"
-#include "absl/strings/string_view.h"
+#include "abseil/base/attributes.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

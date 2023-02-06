@@ -33,7 +33,7 @@
 #include "Firestore/core/src/nanopb/reader.h"
 #include "Firestore/core/src/util/string_util.h"
 #include "Firestore/core/src/util/to_string.h"
-#include "absl/strings/match.h"
+#include "abseil/strings/match.h"
 
 namespace firebase {
 namespace firestore {

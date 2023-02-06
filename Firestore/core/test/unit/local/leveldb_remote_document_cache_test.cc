@@ -23,7 +23,7 @@
 #include "Firestore/core/src/util/ordered_code.h"
 #include "Firestore/core/test/unit/local/persistence_testing.h"
 #include "Firestore/core/test/unit/local/remote_document_cache_test.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "leveldb/db.h"
 
 namespace firebase {

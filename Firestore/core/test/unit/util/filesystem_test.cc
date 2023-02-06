@@ -29,8 +29,8 @@
 #include "Firestore/core/src/util/string_win.h"
 #include "Firestore/core/test/unit/testutil/filesystem_testing.h"
 #include "Firestore/core/test/unit/testutil/status_testing.h"
-#include "absl/strings/match.h"
-#include "absl/types/optional.h"
+#include "abseil/strings/match.h"
+#include "abseil/types/optional.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

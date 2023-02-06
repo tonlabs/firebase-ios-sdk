@@ -23,7 +23,7 @@
 #include <vector>
 
 #include "Firestore/core/src/util/async_queue.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

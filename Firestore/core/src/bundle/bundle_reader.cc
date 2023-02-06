@@ -18,9 +18,9 @@
 
 #include <algorithm>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/string_view.h"
+#include "abseil/memory/memory.h"
+#include "abseil/strings/numbers.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

@@ -22,7 +22,7 @@
 
 #include "Firestore/core/src/util/exception.h"
 #include "Firestore/core/src/util/string_format.h"
-#include "absl/base/optimization.h"
+#include "abseil/base/optimization.h"
 
 #if defined(_MSC_VER)
 #define FIRESTORE_FUNCTION_NAME __FUNCSIG__

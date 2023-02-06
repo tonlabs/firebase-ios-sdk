@@ -26,9 +26,9 @@
 #include "Firestore/core/src/nanopb/message.h"
 #include "Firestore/core/src/nanopb/reader.h"
 #include "Firestore/core/src/util/hard_assert.h"
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "abseil/strings/match.h"
+#include "abseil/strings/string_view.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

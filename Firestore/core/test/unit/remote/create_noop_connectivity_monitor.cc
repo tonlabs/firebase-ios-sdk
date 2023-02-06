@@ -16,7 +16,7 @@
 
 #include "Firestore/core/test/unit/remote/create_noop_connectivity_monitor.h"
 
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

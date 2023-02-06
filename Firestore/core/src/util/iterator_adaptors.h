@@ -23,8 +23,8 @@
 #include <memory>
 #include <type_traits>
 
-#include "absl/base/port.h"
-#include "absl/meta/type_traits.h"
+#include "abseil/base/port.h"
+#include "abseil/meta/type_traits.h"
 
 namespace firebase {
 namespace firestore {

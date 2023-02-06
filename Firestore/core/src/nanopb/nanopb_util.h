@@ -28,8 +28,8 @@
 #include "Firestore/core/src/nanopb/byte_string.h"
 #include "Firestore/core/src/util/hard_assert.h"
 #include "Firestore/core/src/util/nullability.h"
-#include "absl/base/casts.h"
-#include "absl/memory/memory.h"
+#include "abseil/base/casts.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

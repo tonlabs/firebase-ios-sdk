@@ -28,7 +28,7 @@
 #include "Firestore/core/src/model/resource_path.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
 #include "Firestore/core/test/unit/testutil/view_testing.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

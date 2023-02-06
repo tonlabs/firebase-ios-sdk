@@ -150,7 +150,7 @@ let package = Package(
       url: "https://github.com/google/GoogleAppMeasurement.git",
       // Note that CI changes the version to the head of main for CI.
       // See scripts/setup_spm_tests.sh.
-      .exact("10.4.0")
+      .branch("main")
     ),
     .package(
       name: "GoogleDataTransport",
@@ -174,13 +174,13 @@ let package = Package(
     ),
     .package(
       name: "abseil",
-      url: "https://github.com/firebase/abseil-cpp-SwiftPM.git",
-      "0.20220203.1" ..< "0.20220204.0"
+      url: "https://github.com/ncooke3/abseil-cpp-SwiftPM.git",
+      .branch("main")
     ),
     .package(
       name: "gRPC",
-      url: "https://github.com/grpc/grpc-ios.git",
-      "1.44.0-grpc" ..< "1.45.0-grpc"
+      url: "https://github.com/ncooke3/grpc-ios.git",
+      .branch("main")
     ),
     .package(
       name: "OCMock",
@@ -652,7 +652,7 @@ let package = Package(
         "leveldb",
         .product(name: "nanopb", package: "nanopb"),
         .product(name: "abseil", package: "abseil"),
-        .product(name: "gRPC-cpp", package: "gRPC"),
+        .product(name: "gRPC-C++", package: "gRPC"),
       ],
       path: "Firestore",
       exclude: [

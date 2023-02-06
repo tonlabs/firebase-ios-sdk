@@ -23,8 +23,8 @@
 #include <memory>
 #include <string>
 
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "abseil/strings/string_view.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

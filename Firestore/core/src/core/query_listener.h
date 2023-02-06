@@ -25,7 +25,7 @@
 #include "Firestore/core/src/core/view_snapshot.h"
 #include "Firestore/core/src/model/types.h"
 #include "Firestore/core/src/util/status_fwd.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

@@ -21,7 +21,7 @@
 #include <utility>
 
 #include "Firestore/core/src/util/string_apple.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

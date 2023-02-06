@@ -27,7 +27,7 @@
 #include "Firestore/core/src/immutable/sorted_map.h"
 #include "Firestore/core/src/immutable/sorted_set.h"
 #include "Firestore/core/src/model/document_key.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

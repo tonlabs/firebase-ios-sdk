@@ -30,7 +30,7 @@
 #include "Firestore/core/src/model/mutation.h"
 #include "Firestore/core/src/model/overlayed_document.h"
 #include "Firestore/core/src/model/types.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

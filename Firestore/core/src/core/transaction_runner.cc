@@ -19,7 +19,7 @@
 #include <utility>
 
 #include "Firestore/core/src/remote/exponential_backoff.h"
-#include "absl/algorithm/container.h"
+#include "abseil/algorithm/container.h"
 
 namespace firebase {
 namespace firestore {

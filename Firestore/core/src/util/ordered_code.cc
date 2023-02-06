@@ -22,11 +22,11 @@
 
 #include "Firestore/core/src/util/bits.h"
 #include "Firestore/core/src/util/hard_assert.h"
-#include "absl/base/casts.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/base/port.h"
-#include "absl/strings/internal/resize_uninitialized.h"
+#include "abseil/base/casts.h"
+#include "abseil/base/internal/endian.h"
+#include "abseil/base/internal/unaligned_access.h"
+#include "abseil/base/port.h"
+#include "abseil/strings/internal/resize_uninitialized.h"
 
 #if !defined(ABSL_IS_LITTLE_ENDIAN) && !defined(ABSL_IS_BIG_ENDIAN)
 #error \

@@ -27,7 +27,7 @@
 #include "Firestore/core/src/model/mutation.h"
 #include "Firestore/core/src/model/precondition.h"
 #include "Firestore/core/src/model/snapshot_version.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

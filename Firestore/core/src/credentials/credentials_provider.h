@@ -25,7 +25,7 @@
 #include "Firestore/core/src/credentials/auth_token.h"
 #include "Firestore/core/src/credentials/user.h"
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

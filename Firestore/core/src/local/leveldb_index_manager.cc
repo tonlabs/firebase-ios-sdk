@@ -47,7 +47,7 @@
 #include "Firestore/core/src/util/set_util.h"
 #include "Firestore/core/src/util/string_util.h"
 #include "Firestore/third_party/nlohmann_json/json.hpp"
-#include "absl/strings/match.h"
+#include "abseil/strings/match.h"
 #include "leveldb/iterator.h"
 
 namespace firebase {

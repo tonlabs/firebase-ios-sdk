@@ -21,7 +21,7 @@
 #include "Firestore/Protos/nanopb/google/firestore/v1/write.nanopb.h"
 #include "Firestore/core/src/nanopb/message.h"
 #include "Firestore/core/src/nanopb/nanopb_util.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

@@ -27,7 +27,7 @@
 #include "Firestore/core/src/nanopb/byte_string.h"
 #include "Firestore/core/src/nanopb/message.h"
 #include "Firestore/core/src/nanopb/writer.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 #include "leveldb/db.h"
 
 namespace firebase {

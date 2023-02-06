@@ -21,7 +21,7 @@
 #include <string>
 
 #include "Firestore/core/src/util/executor.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

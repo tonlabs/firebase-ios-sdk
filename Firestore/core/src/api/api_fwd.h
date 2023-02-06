@@ -21,7 +21,7 @@
 #include <memory>
 
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

@@ -28,7 +28,7 @@
 #include "Firestore/core/src/util/path.h"
 #include "Firestore/core/src/util/statusor.h"
 #include "Firestore/core/src/util/string_format.h"
-#include "absl/strings/match.h"
+#include "abseil/strings/match.h"
 
 namespace firebase {
 namespace firestore {

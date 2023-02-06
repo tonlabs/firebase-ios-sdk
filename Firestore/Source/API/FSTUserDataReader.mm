@@ -53,9 +53,9 @@
 #include "Firestore/core/src/util/read_context.h"
 #include "Firestore/core/src/util/string_apple.h"
 
-#include "absl/memory/memory.h"
-#include "absl/strings/match.h"
-#include "absl/types/optional.h"
+#include "abseil/memory/memory.h"
+#include "abseil/strings/match.h"
+#include "abseil/types/optional.h"
 
 namespace nanopb = firebase::firestore::nanopb;
 using firebase::Timestamp;

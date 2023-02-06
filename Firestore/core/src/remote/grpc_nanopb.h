@@ -26,7 +26,7 @@
 #include "Firestore/core/src/nanopb/message.h"
 #include "Firestore/core/src/nanopb/reader.h"
 #include "Firestore/core/src/nanopb/writer.h"
-#include "grpcpp/support/byte_buffer.h"
+#include "grpc-c++/support/byte_buffer.h"
 
 namespace firebase {
 namespace firestore {

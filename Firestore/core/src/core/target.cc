@@ -30,7 +30,7 @@
 #include "Firestore/core/src/util/equality.h"
 #include "Firestore/core/src/util/hashing.h"
 #include "Firestore/core/src/util/maps.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 
 namespace firebase {
 namespace firestore {

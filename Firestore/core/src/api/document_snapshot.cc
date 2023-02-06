@@ -21,7 +21,7 @@
 #include "Firestore/core/src/api/document_reference.h"
 #include "Firestore/core/src/model/resource_path.h"
 #include "Firestore/core/src/util/hashing.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

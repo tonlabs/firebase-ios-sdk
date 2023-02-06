@@ -25,7 +25,7 @@
 #include "Firestore/core/src/bundle/bundle_serializer.h"
 #include "Firestore/core/src/util/byte_stream.h"
 #include "Firestore/core/src/util/json_reader.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

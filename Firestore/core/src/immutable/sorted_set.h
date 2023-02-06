@@ -26,7 +26,7 @@
 #include "Firestore/core/src/util/empty.h"
 #include "Firestore/core/src/util/hard_assert.h"
 #include "Firestore/core/src/util/hashing.h"
-#include "absl/base/attributes.h"
+#include "abseil/base/attributes.h"
 
 namespace firebase {
 namespace firestore {

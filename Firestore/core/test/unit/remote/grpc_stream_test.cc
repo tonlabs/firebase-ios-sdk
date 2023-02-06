@@ -32,8 +32,8 @@
 #include "Firestore/core/test/unit/remote/create_noop_connectivity_monitor.h"
 #include "Firestore/core/test/unit/remote/grpc_stream_tester.h"
 #include "Firestore/core/test/unit/testutil/async_testing.h"
-#include "absl/memory/memory.h"
-#include "grpcpp/support/byte_buffer.h"
+#include "abseil/memory/memory.h"
+#include "grpc-c++/support/byte_buffer.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

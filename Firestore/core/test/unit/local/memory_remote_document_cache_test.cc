@@ -23,7 +23,7 @@
 #include "Firestore/core/src/local/remote_document_cache.h"
 #include "Firestore/core/test/unit/local/persistence_testing.h"
 #include "Firestore/core/test/unit/local/remote_document_cache_test.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

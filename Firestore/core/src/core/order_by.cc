@@ -22,7 +22,7 @@
 #include "Firestore/core/src/model/document.h"
 #include "Firestore/core/src/model/value_util.h"
 #include "Firestore/core/src/util/string_format.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 
 namespace firebase {
 namespace firestore {

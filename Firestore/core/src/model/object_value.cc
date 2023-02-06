@@ -25,7 +25,7 @@
 #include "Firestore/core/src/nanopb/message.h"
 #include "Firestore/core/src/nanopb/nanopb_util.h"
 #include "Firestore/core/src/util/hashing.h"
-#include "absl/types/span.h"
+#include "abseil/types/span.h"
 
 namespace firebase {
 namespace firestore {

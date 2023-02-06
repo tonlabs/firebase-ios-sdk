@@ -25,8 +25,8 @@
 #include "Firestore/core/src/nanopb/writer.h"
 #include "Firestore/core/src/remote/grpc_nanopb.h"
 #include "Firestore/core/test/unit/testutil/status_testing.h"
-#include "grpcpp/impl/codegen/grpc_library.h"
-#include "grpcpp/support/byte_buffer.h"
+#include "grpc-c++/impl/codegen/grpc_library.h"
+#include "grpc-c++/support/byte_buffer.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

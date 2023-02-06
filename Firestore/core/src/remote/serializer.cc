@@ -53,8 +53,8 @@
 #include "Firestore/core/src/util/status.h"
 #include "Firestore/core/src/util/statusor.h"
 #include "Firestore/core/src/util/string_format.h"
-#include "absl/algorithm/container.h"
-#include "absl/types/span.h"
+#include "abseil/algorithm/container.h"
+#include "abseil/types/span.h"
 
 namespace firebase {
 namespace firestore {

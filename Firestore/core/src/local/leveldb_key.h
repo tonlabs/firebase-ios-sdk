@@ -24,7 +24,7 @@
 #include "Firestore/core/src/model/mutation_batch.h"
 #include "Firestore/core/src/model/resource_path.h"
 #include "Firestore/core/src/model/types.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 #include "leveldb/slice.h"
 
 namespace firebase {

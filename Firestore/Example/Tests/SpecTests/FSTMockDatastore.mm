@@ -37,8 +37,8 @@
 #include "Firestore/core/src/util/log.h"
 #include "Firestore/core/src/util/string_apple.h"
 #include "Firestore/core/test/unit/remote/create_noop_connectivity_monitor.h"
-#include "absl/memory/memory.h"
-#include "grpcpp/completion_queue.h"
+#include "abseil/memory/memory.h"
+#include "grpc-c++/completion_queue.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

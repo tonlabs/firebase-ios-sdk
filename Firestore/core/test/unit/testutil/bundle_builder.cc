@@ -18,7 +18,7 @@
 #include <utility>
 #include <vector>
 
-#include "absl/strings/str_replace.h"
+#include "abseil/strings/str_replace.h"
 
 namespace firebase {
 namespace firestore {

@@ -44,7 +44,7 @@
 #include "Firestore/core/src/util/log.h"
 #include "Firestore/core/src/util/status.h"
 #include "Firestore/third_party/nlohmann_json/json.hpp"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

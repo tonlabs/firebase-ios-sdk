@@ -22,7 +22,7 @@
 #include <type_traits>
 
 #include "Firestore/core/src/util/comparison.h"
-#include "absl/base/attributes.h"
+#include "abseil/base/attributes.h"
 
 namespace firebase {
 namespace firestore {

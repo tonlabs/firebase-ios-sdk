@@ -17,7 +17,7 @@
 #ifndef FIRESTORE_CORE_TEST_UNIT_TESTUTIL_APP_TESTING_H_
 #define FIRESTORE_CORE_TEST_UNIT_TESTUTIL_APP_TESTING_H_
 
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 #if __OBJC__
 

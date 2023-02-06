@@ -53,7 +53,7 @@
 #include "Firestore/core/test/unit/testutil/app_testing.h"
 #include "Firestore/core/test/unit/testutil/async_testing.h"
 #include "Firestore/core/test/unit/testutil/status_testing.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 using firebase::firestore::core::DatabaseInfo;
 using firebase::firestore::credentials::CredentialChangeListener;

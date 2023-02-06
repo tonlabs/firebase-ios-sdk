@@ -30,7 +30,7 @@
 #include "Firestore/core/src/model/document_key_set.h"
 #include "Firestore/core/test/unit/testutil/status_testing.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

@@ -25,7 +25,7 @@
 #include "Firestore/core/src/model/field_path.h"
 #include "Firestore/core/src/model/snapshot_version.h"
 #include "Firestore/core/src/util/comparison.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

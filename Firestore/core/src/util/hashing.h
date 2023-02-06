@@ -24,8 +24,8 @@
 
 #include "Firestore/core/src/objc/objc_type_traits.h"
 #include "Firestore/core/src/util/type_traits.h"
-#include "absl/meta/type_traits.h"
-#include "absl/types/optional.h"
+#include "abseil/meta/type_traits.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

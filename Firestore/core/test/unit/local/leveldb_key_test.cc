@@ -21,7 +21,7 @@
 #include "Firestore/core/src/util/autoid.h"
 #include "Firestore/core/src/util/string_util.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/strings/match.h"
+#include "abseil/strings/match.h"
 #include "gtest/gtest.h"
 
 using firebase::firestore::model::BatchId;

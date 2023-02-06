@@ -17,7 +17,7 @@
 #include "Firestore/core/src/model/field_index.h"
 #include "Firestore/core/src/util/comparison.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

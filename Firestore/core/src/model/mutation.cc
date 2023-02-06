@@ -30,7 +30,7 @@
 #include "Firestore/core/src/nanopb/message.h"
 #include "Firestore/core/src/util/hard_assert.h"
 #include "Firestore/core/src/util/to_string.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 
 namespace firebase {
 namespace firestore {

@@ -27,9 +27,9 @@
 #include "Firestore/core/src/util/string_apple.h"
 #include "Firestore/core/src/util/string_format.h"
 #include "Firestore/core/src/util/type_traits.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/str_join.h"
-#include "absl/types/optional.h"
+#include "abseil/meta/type_traits.h"
+#include "abseil/strings/str_join.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

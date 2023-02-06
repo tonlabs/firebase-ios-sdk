@@ -79,8 +79,8 @@
 #include "Firestore/core/include/firebase/firestore/firestore_errors.h"
 #include "Firestore/core/src/util/status.h"
 #include "Firestore/core/src/util/statusor_internals.h"
-#include "absl/base/attributes.h"
-#include "absl/strings/string_view.h"
+#include "abseil/base/attributes.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

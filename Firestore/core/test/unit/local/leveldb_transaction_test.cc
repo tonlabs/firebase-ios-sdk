@@ -28,7 +28,7 @@
 #include "Firestore/core/src/util/path.h"
 #include "Firestore/core/test/unit/local/persistence_testing.h"
 #include "Firestore/core/test/unit/testutil/status_testing.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 #include "gtest/gtest.h"
 #include "leveldb/db.h"
 

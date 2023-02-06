@@ -22,7 +22,7 @@
 
 #include "Firestore/core/src/local/reference_delegate.h"
 #include "Firestore/core/src/model/document_key.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

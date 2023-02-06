@@ -28,7 +28,7 @@
 #include "Firestore/core/test/unit/testutil/filesystem_testing.h"
 #include "Firestore/core/test/unit/testutil/status_testing.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

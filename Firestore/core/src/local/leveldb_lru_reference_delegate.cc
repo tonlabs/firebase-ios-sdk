@@ -28,8 +28,8 @@
 #include "Firestore/core/src/model/resource_path.h"
 #include "Firestore/core/src/model/types.h"
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/match.h"
+#include "abseil/memory/memory.h"
+#include "abseil/strings/match.h"
 
 namespace firebase {
 namespace firestore {

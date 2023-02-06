@@ -20,7 +20,7 @@
 #include <string>
 
 #include "Firestore/core/src/util/status_fwd.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 #include "leveldb/slice.h"
 #include "leveldb/status.h"
 

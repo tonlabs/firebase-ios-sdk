@@ -20,7 +20,7 @@
 
 #include "Firestore/core/src/util/hashing.h"
 #include "Firestore/core/src/util/to_string.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 
 namespace firebase {
 namespace firestore {

@@ -30,10 +30,10 @@
 #include "Firestore/core/src/nanopb/nanopb_util.h"
 #include "Firestore/core/src/util/comparison.h"
 #include "Firestore/core/src/util/hard_assert.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/str_split.h"
+#include "abseil/strings/escaping.h"
+#include "abseil/strings/str_format.h"
+#include "abseil/strings/str_join.h"
+#include "abseil/strings/str_split.h"
 
 namespace firebase {
 namespace firestore {

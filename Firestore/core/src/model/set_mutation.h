@@ -24,7 +24,7 @@
 
 #include "Firestore/core/src/model/mutation.h"
 #include "Firestore/core/src/model/object_value.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

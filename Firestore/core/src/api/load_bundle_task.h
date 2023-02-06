@@ -26,7 +26,7 @@
 
 #include "Firestore/core/src/util/executor.h"
 #include "Firestore/core/src/util/status.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

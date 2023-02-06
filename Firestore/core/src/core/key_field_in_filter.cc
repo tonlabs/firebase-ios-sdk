@@ -23,7 +23,7 @@
 #include "Firestore/core/src/model/document_key.h"
 #include "Firestore/core/src/model/value_util.h"
 #include "Firestore/core/src/nanopb/nanopb_util.h"
-#include "absl/algorithm/container.h"
+#include "abseil/algorithm/container.h"
 
 namespace firebase {
 namespace firestore {

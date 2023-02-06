@@ -19,7 +19,7 @@
 
 #include "Firestore/core/include/firebase/firestore/timestamp.h"
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/time/time.h"
+#include "abseil/time/time.h"
 
 namespace firebase {
 

@@ -20,7 +20,7 @@
 
 #include "Firestore/core/src/util/executor_libdispatch.h"
 #include "Firestore/core/test/unit/testutil/async_testing.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

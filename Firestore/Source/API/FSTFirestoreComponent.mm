@@ -42,7 +42,7 @@
 #include "Firestore/core/src/util/exception.h"
 #include "Firestore/core/src/util/executor.h"
 #include "Firestore/core/src/util/hard_assert.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 using firebase::firestore::credentials::FirebaseAppCheckCredentialsProvider;
 using firebase::firestore::credentials::FirebaseAuthCredentialsProvider;

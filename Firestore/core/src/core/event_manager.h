@@ -28,7 +28,7 @@
 #include "Firestore/core/src/model/model_fwd.h"
 #include "Firestore/core/src/util/empty.h"
 #include "Firestore/core/src/util/status_fwd.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

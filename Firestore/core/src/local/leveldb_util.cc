@@ -18,7 +18,7 @@
 
 #include "Firestore/core/include/firebase/firestore/firestore_errors.h"
 #include "Firestore/core/src/util/status.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 
 namespace firebase {
 namespace firestore {

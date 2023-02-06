@@ -58,7 +58,7 @@
 #include "Firestore/core/src/util/to_string.h"
 #include "Firestore/core/test/unit/remote/create_noop_connectivity_monitor.h"
 #include "Firestore/core/test/unit/testutil/async_testing.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 using firebase::firestore::Error;
 using firebase::firestore::api::LoadBundleTask;

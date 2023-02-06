@@ -21,7 +21,7 @@
 #include "Firestore/core/test/unit/local/index_manager_test.h"
 #include "Firestore/core/test/unit/local/persistence_testing.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

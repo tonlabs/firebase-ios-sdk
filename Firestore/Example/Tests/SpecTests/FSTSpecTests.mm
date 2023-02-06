@@ -70,8 +70,8 @@
 #include "Firestore/core/src/util/string_apple.h"
 #include "Firestore/core/src/util/to_string.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/memory/memory.h"
-#include "absl/types/optional.h"
+#include "abseil/memory/memory.h"
+#include "abseil/types/optional.h"
 
 namespace objc = firebase::firestore::objc;
 using firebase::firestore::Error;

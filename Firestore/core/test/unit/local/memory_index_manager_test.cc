@@ -20,7 +20,7 @@
 #include "Firestore/core/src/local/memory_persistence.h"
 #include "Firestore/core/src/local/reference_delegate.h"
 #include "Firestore/core/test/unit/local/persistence_testing.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

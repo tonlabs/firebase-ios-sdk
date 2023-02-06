@@ -28,8 +28,8 @@
 #include "Firestore/core/src/model/snapshot_version.h"
 #include "Firestore/core/src/util/status.h"
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/types/any.h"
-#include "absl/types/optional.h"
+#include "abseil/types/any.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

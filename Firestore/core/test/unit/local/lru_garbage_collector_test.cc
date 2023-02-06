@@ -41,7 +41,7 @@
 #include "Firestore/core/src/util/statusor.h"
 #include "Firestore/core/test/unit/testutil/status_testing.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/strings/str_cat.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

@@ -20,7 +20,7 @@
 #include <utility>
 
 #include "Firestore/core/src/util/status.h"
-#include "absl/base/attributes.h"
+#include "abseil/base/attributes.h"
 
 namespace firebase {
 namespace firestore {

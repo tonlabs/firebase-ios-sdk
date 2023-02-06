@@ -26,7 +26,7 @@
 #include "Firestore/core/src/util/log.h"
 #include "Firestore/core/src/util/string_apple.h"
 #include "LibFuzzer/FuzzerDefs.h"
-#include "absl/strings/str_join.h"
+#include "abseil/strings/str_join.h"
 
 namespace {
 

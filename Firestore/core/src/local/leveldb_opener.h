@@ -21,7 +21,7 @@
 
 #include "Firestore/core/src/core/database_info.h"
 #include "Firestore/core/src/util/path.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

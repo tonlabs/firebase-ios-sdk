@@ -37,7 +37,7 @@
 
 #include "Firestore/core/include/firebase/firestore/firestore_errors.h"
 #include "Firestore/core/src/util/string_format.h"
-#include "absl/base/attributes.h"
+#include "abseil/base/attributes.h"
 
 namespace firebase {
 namespace firestore {

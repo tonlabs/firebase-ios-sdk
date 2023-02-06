@@ -21,7 +21,7 @@
 #include <string>
 
 #include "Firestore/core/src/util/status.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

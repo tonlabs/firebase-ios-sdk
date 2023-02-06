@@ -22,7 +22,7 @@
 #include <vector>
 
 #include "Firestore/core/src/local/mutation_queue.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

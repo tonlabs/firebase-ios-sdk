@@ -41,7 +41,7 @@
 
 #else  // !defined(__ANDROID__)
 // On any other supported platform, just take Abseil's word for it.
-#include "absl/base/config.h"
+#include "abseil/base/config.h"
 
 #if ABSL_HAVE_EXCEPTIONS
 #define FIRESTORE_HAVE_EXCEPTIONS 1

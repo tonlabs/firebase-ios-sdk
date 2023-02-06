@@ -29,8 +29,8 @@
 #include "Firestore/core/src/util/equality.h"
 #include "Firestore/core/src/util/hard_assert.h"
 #include "Firestore/core/src/util/hashing.h"
-#include "absl/algorithm/container.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/algorithm/container.h"
+#include "abseil/strings/str_cat.h"
 
 namespace firebase {
 namespace firestore {

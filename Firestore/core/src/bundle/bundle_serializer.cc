@@ -38,9 +38,9 @@
 #include "Firestore/core/src/util/statusor.h"
 #include "Firestore/core/src/util/string_format.h"
 #include "Firestore/core/src/util/string_util.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/numbers.h"
-#include "absl/time/time.h"
+#include "abseil/strings/escaping.h"
+#include "abseil/strings/numbers.h"
+#include "abseil/time/time.h"
 
 namespace firebase {
 namespace firestore {

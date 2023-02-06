@@ -37,9 +37,9 @@
 #include "Firestore/core/src/model/value_util.h"
 #include "Firestore/core/src/nanopb/nanopb_util.h"
 #include "Firestore/core/src/util/exception.h"
-#include "absl/algorithm/container.h"
-#include "absl/strings/match.h"
-#include "absl/types/span.h"
+#include "abseil/algorithm/container.h"
+#include "abseil/strings/match.h"
+#include "abseil/types/span.h"
 
 namespace firebase {
 namespace firestore {

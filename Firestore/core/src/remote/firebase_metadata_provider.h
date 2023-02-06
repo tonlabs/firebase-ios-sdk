@@ -19,7 +19,7 @@
 
 #include <string>
 
-#include "grpcpp/client_context.h"
+#include "grpc-c++/client_context.h"
 
 namespace firebase {
 namespace firestore {

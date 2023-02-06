@@ -28,8 +28,8 @@
 #include "Firestore/core/src/model/model_fwd.h"
 #include "Firestore/core/src/model/overlay.h"
 #include "Firestore/core/src/model/types.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "abseil/strings/string_view.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

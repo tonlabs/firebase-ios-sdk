@@ -31,7 +31,7 @@
 #include "Firestore/core/src/nanopb/writer.h"
 #include "Firestore/core/src/util/log.h"
 #include "Firestore/core/src/util/statusor.h"
-#include "absl/strings/match.h"
+#include "abseil/strings/match.h"
 
 namespace firebase {
 namespace firestore {

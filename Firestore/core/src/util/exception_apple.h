@@ -20,7 +20,7 @@
 #include <string>
 
 #include "Firestore/core/src/util/exception.h"
-#include "absl/base/attributes.h"
+#include "abseil/base/attributes.h"
 
 namespace firebase {
 namespace firestore {

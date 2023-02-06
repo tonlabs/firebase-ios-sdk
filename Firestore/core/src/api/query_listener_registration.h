@@ -21,8 +21,8 @@
 
 #include "Firestore/core/src/api/listener_registration.h"
 #include "Firestore/core/src/core/core_fwd.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/mutex.h"
+#include "abseil/base/thread_annotations.h"
+#include "abseil/synchronization/mutex.h"
 
 namespace firebase {
 namespace firestore {

@@ -25,8 +25,8 @@
 #include "Firestore/core/src/immutable/sorted_map_iterator.h"
 #include "Firestore/core/src/immutable/tree_sorted_map.h"
 #include "Firestore/core/src/util/comparison.h"
-#include "absl/base/attributes.h"
-#include "absl/types/optional.h"
+#include "abseil/base/attributes.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

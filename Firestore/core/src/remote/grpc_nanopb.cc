@@ -22,7 +22,7 @@
 #include "Firestore/core/src/nanopb/writer.h"
 #include "Firestore/core/src/remote/grpc_util.h"
 #include "Firestore/core/src/util/status.h"
-#include "grpcpp/support/status.h"
+#include "grpc-c++/support/status.h"
 
 namespace firebase {
 namespace firestore {

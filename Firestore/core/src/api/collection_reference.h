@@ -23,7 +23,7 @@
 #include "Firestore/core/src/api/api_fwd.h"
 #include "Firestore/core/src/api/query_core.h"
 #include "Firestore/core/src/core/core_fwd.h"
-#include "absl/types/optional.h"
+#include "abseil/types/optional.h"
 
 namespace firebase {
 namespace firestore {

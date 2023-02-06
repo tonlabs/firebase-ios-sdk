@@ -18,7 +18,7 @@
 
 #include "Firestore/core/src/util/byte_stream_apple.h"
 #include "Firestore/core/src/util/string_apple.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 
 namespace firebase {
 namespace firestore {

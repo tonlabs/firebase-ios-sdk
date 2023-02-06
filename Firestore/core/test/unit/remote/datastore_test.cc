@@ -41,8 +41,8 @@
 #include "Firestore/core/test/unit/remote/grpc_stream_tester.h"
 #include "Firestore/core/test/unit/testutil/async_testing.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
+#include "abseil/memory/memory.h"
+#include "abseil/strings/str_cat.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

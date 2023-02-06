@@ -19,7 +19,7 @@
 #include <map>
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

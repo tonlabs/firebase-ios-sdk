@@ -21,7 +21,7 @@
 #include <string>
 
 #include "Firestore/core/src/util/string_format.h"
-#include "absl/base/config.h"
+#include "abseil/base/config.h"
 
 namespace firebase {
 namespace firestore {

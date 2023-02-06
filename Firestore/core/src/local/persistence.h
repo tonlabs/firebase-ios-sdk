@@ -22,7 +22,7 @@
 #include <utility>
 
 #include "Firestore/core/src/model/types.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

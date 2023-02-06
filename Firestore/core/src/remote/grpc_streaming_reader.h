@@ -27,11 +27,11 @@
 #include "Firestore/core/src/util/status.h"
 #include "Firestore/core/src/util/status_fwd.h"
 #include "Firestore/core/src/util/warnings.h"
-#include "grpcpp/client_context.h"
-#include "grpcpp/support/byte_buffer.h"
+#include "grpc-c++/client_context.h"
+#include "grpc-c++/support/byte_buffer.h"
 
 SUPPRESS_DOCUMENTATION_WARNINGS_BEGIN()
-#include "grpcpp/generic/generic_stub.h"
+#include "grpc-c++/generic/generic_stub.h"
 SUPPRESS_END()
 
 namespace firebase {

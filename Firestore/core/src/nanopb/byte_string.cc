@@ -26,7 +26,7 @@
 #include "Firestore/core/src/nanopb/nanopb_util.h"
 #include "Firestore/core/src/util/hashing.h"
 #include "Firestore/core/src/util/range.h"
-#include "absl/strings/escaping.h"
+#include "abseil/strings/escaping.h"
 
 namespace firebase {
 namespace firestore {

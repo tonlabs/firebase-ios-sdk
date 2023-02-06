@@ -23,7 +23,7 @@
 #include "Firestore/core/src/model/document_key.h"
 #include "Firestore/core/src/util/hashing.h"
 #include "Firestore/core/src/util/to_string.h"
-#include "absl/algorithm/container.h"
+#include "abseil/algorithm/container.h"
 
 namespace firebase {
 namespace firestore {

@@ -30,7 +30,7 @@
 #include "Firestore/core/src/nanopb/reader.h"
 #include "Firestore/core/src/remote/serializer.h"
 #include "Firestore/core/src/util/status_fwd.h"
-#include "grpcpp/support/byte_buffer.h"
+#include "grpc-c++/support/byte_buffer.h"
 
 namespace firebase {
 namespace firestore {

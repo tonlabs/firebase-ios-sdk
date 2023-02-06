@@ -24,8 +24,8 @@
 #include "Firestore/core/src/nanopb/byte_string.h"
 #include "Firestore/core/src/nanopb/nanopb_util.h"
 #include "Firestore/core/src/util/ordered_code.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/string_view.h"
+#include "abseil/memory/memory.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

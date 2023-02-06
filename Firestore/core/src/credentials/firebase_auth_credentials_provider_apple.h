@@ -29,7 +29,7 @@
 
 #include "Firestore/core/src/credentials/credentials_provider.h"
 #include "Firestore/core/src/credentials/user.h"
-#include "absl/strings/string_view.h"
+#include "abseil/strings/string_view.h"
 
 @class FIRApp;
 @protocol FIRAuthInterop;

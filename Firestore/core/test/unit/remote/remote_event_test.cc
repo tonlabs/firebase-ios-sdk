@@ -28,7 +28,7 @@
 #include "Firestore/core/src/remote/watch_change.h"
 #include "Firestore/core/test/unit/remote/fake_target_metadata_provider.h"
 #include "Firestore/core/test/unit/testutil/testutil.h"
-#include "absl/memory/memory.h"
+#include "abseil/memory/memory.h"
 #include "gtest/gtest.h"
 
 namespace firebase {

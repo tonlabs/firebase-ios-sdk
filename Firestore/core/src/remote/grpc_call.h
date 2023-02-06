@@ -20,8 +20,8 @@
 #include <map>
 
 #include "Firestore/core/src/util/status_fwd.h"
-#include "grpcpp/client_context.h"
-#include "grpcpp/support/string_ref.h"
+#include "grpc-c++/client_context.h"
+#include "grpc-c++/support/string_ref.h"
 
 namespace firebase {
 namespace firestore {

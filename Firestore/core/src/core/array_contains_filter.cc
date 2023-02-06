@@ -21,7 +21,7 @@
 
 #include "Firestore/core/src/model/document.h"
 #include "Firestore/core/src/model/value_util.h"
-#include "absl/algorithm/container.h"
+#include "abseil/algorithm/container.h"
 
 namespace firebase {
 namespace firestore {

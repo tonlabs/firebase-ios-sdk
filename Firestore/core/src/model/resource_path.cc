@@ -21,9 +21,9 @@
 #include <vector>
 
 #include "Firestore/core/src/util/exception.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/str_split.h"
+#include "abseil/strings/match.h"
+#include "abseil/strings/str_join.h"
+#include "abseil/strings/str_split.h"
 
 namespace firebase {
 namespace firestore {

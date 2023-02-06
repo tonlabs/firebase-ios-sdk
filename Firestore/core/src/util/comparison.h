@@ -29,8 +29,8 @@
 #include <utility>
 #include <vector>
 
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
+#include "abseil/meta/type_traits.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

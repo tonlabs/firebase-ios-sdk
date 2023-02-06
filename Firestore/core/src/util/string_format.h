@@ -24,9 +24,9 @@
 #include "Firestore/core/src/objc/objc_type_traits.h"
 #include "Firestore/core/src/util/string_apple.h"
 #include "Firestore/core/src/util/type_traits.h"
-#include "absl/base/attributes.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "abseil/base/attributes.h"
+#include "abseil/strings/str_cat.h"
+#include "abseil/strings/string_view.h"
 
 namespace firebase {
 namespace firestore {

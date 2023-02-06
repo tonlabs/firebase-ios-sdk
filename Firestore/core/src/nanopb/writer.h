@@ -25,7 +25,7 @@
 #include <vector>
 
 #include "Firestore/core/src/nanopb/byte_string.h"
-#include "grpcpp/support/byte_buffer.h"
+#include "grpc-c++/support/byte_buffer.h"
 
 namespace firebase {
 namespace firestore {
