@@ -172,16 +172,16 @@ let package = Package(
       url: "https://github.com/firebase/nanopb.git",
       "2.30909.0" ..< "2.30910.0"
     ),
-    .package(
-      name: "abseil",
-      url: "https://github.com/firebase/abseil-cpp-SwiftPM.git",
-      "0.20220203.1" ..< "0.20220204.0"
-    ),
-    .package(
-      name: "gRPC",
-      url: "https://github.com/grpc/grpc-ios.git",
-      "1.44.0-grpc" ..< "1.45.0-grpc"
-    ),
+//    .package(
+//      name: "abseil",
+//      url: "https://github.com/firebase/abseil-cpp-SwiftPM.git",
+//      "0.20220203.1" ..< "0.20220204.0"
+//    ),
+//    .package(
+//      name: "gRPC",
+//      url: "https://github.com/grpc/grpc-ios.git",
+//      "1.44.0-grpc" ..< "1.45.0-grpc"
+//    ),
     .package(
       name: "OCMock",
       url: "https://github.com/erikdoe/ocmock.git",
@@ -644,71 +644,10 @@ let package = Package(
                              condition: .when(platforms: [.iOS, .tvOS, .macOS]))],
       path: "SwiftPM-PlatformExclude/FirebaseFirestoreWrap"
     ),
-
-    .target(
-      name: "FirebaseFirestore",
-      dependencies: [
-        "FirebaseCore",
-        "leveldb",
-        .product(name: "nanopb", package: "nanopb"),
-        .product(name: "abseil", package: "abseil"),
-        .product(name: "gRPC-cpp", package: "gRPC"),
-      ],
-      path: "Firestore",
-      exclude: [
-        "CHANGELOG.md",
-        "CMakeLists.txt",
-        "Example/",
-        "LICENSE",
-        "Protos/CMakeLists.txt",
-        "Protos/Podfile",
-        "Protos/README.md",
-        "Protos/build_protos.py",
-        "Protos/cpp/",
-        "Protos/lib/",
-        "Protos/nanopb_cpp_generator.py",
-        "Protos/protos/",
-        "README.md",
-        "Source/CMakeLists.txt",
-        "Swift/",
-        "core/CMakeLists.txt",
-        "core/src/util/config_detected.h.in",
-        "core/test/",
-        "fuzzing/",
-        "test.sh",
-        // Swift PM doesn't recognize hpp files, so we're relying on search paths
-        // to find third_party/nlohmann_json/json.hpp.
-        "third_party/",
-
-        // Exclude alternate implementations for other platforms
-        "core/src/remote/connectivity_monitor_noop.cc",
-        "core/src/util/filesystem_win.cc",
-        "core/src/util/log_stdio.cc",
-        "core/src/util/secure_random_openssl.cc",
-      ],
-      sources: [
-        "Source/",
-        "Protos/nanopb/",
-        "core/include/",
-        "core/src",
-      ],
-      publicHeadersPath: "Source/Public",
-      cSettings: [
-        .headerSearchPath("../"),
-        .headerSearchPath("Source/Public/FirebaseFirestore"),
-        .headerSearchPath("Protos/nanopb"),
-        .define("PB_FIELD_32BIT", to: "1"),
-        .define("PB_NO_PACKED_STRUCTS", to: "1"),
-        .define("PB_ENABLE_MALLOC", to: "1"),
-        .define("FIRFirestore_VERSION", to: firebaseVersion),
-      ],
-      linkerSettings: [
-        .linkedFramework("SystemConfiguration", .when(platforms: [.iOS, .macOS, .tvOS])),
-        .linkedFramework("UIKit", .when(platforms: [.iOS, .tvOS])),
-        .linkedLibrary("c++"),
-      ]
+    .binaryTarget(
+        name: "FirebaseFirestore",
+        path: "../../Downloads/Firebase_2/FirebaseFirestore/FirebaseFirestore.xcframework"
     ),
-
     .target(
       name: "FirebaseFirestoreSwiftTarget",
       dependencies: [.target(name: "FirebaseFirestoreSwift",
