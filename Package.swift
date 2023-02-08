@@ -90,6 +90,10 @@ let package = Package(
       targets: ["FirebaseFirestoreTarget"]
     ),
     .library(
+      name: "FirebaseFirestoreBinary",
+      targets: ["FirebaseFirestoreBinary"]
+    ),
+    .library(
       name: "FirebaseFirestoreSwift",
       targets: ["FirebaseFirestoreSwiftTarget"]
     ),
@@ -644,7 +648,11 @@ let package = Package(
                              condition: .when(platforms: [.iOS, .tvOS, .macOS]))],
       path: "SwiftPM-PlatformExclude/FirebaseFirestoreWrap"
     ),
-
+    .binaryTarget(
+        name: "FirebaseFirestoreBinary",
+        url: "https://github.com/ncooke3/binary-firestore/releases/download/0.0.1/FirebaseFirestore.zip",
+        checksum: "fbba73228e2f1f93675a3626da1416dc69caef8abcf9afe17257feb5faacdf74"
+    ),
     .target(
       name: "FirebaseFirestore",
       dependencies: [
