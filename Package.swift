@@ -91,7 +91,7 @@ let package = Package(
     ),
     .library(
       name: "FirebaseFirestoreBinary",
-      targets: ["FirebaseFirestoreBinary"]
+      targets: ["FirebaseFirestore"]
     ),
     .library(
       name: "FirebaseFirestoreSwift",
@@ -649,12 +649,12 @@ let package = Package(
       path: "SwiftPM-PlatformExclude/FirebaseFirestoreWrap"
     ),
     .binaryTarget(
-        name: "FirebaseFirestoreBinary",
+        name: "FirebaseFirestore",
         url: "https://github.com/ncooke3/binary-firestore/releases/download/0.0.1/FirebaseFirestore.zip",
         checksum: "fbba73228e2f1f93675a3626da1416dc69caef8abcf9afe17257feb5faacdf74"
     ),
     .target(
-      name: "FirebaseFirestore",
+      name: "_FirebaseFirestore",
       dependencies: [
         "FirebaseCore",
         "leveldb",
@@ -729,7 +729,7 @@ let package = Package(
       dependencies: [
         "FirebaseCore",
         "FirebaseCoreExtension",
-        "FirebaseFirestore",
+        "_FirebaseFirestore",
         "FirebaseSharedSwift",
       ],
       path: "Firestore",
@@ -1207,7 +1207,7 @@ let package = Package(
         "FirebaseCore",
         "FirebaseDatabase",
         "FirebaseDynamicLinks",
-        "FirebaseFirestore",
+        "_FirebaseFirestore",
         "FirebaseFirestoreSwift",
         "FirebaseFunctions",
         "FirebaseInAppMessaging",
@@ -1246,7 +1246,7 @@ let package = Package(
         "FirebaseCore",
         "FirebaseDatabase",
         "FirebaseDynamicLinks",
-        "FirebaseFirestore",
+        "_FirebaseFirestore",
         "FirebaseFunctions",
         "FirebaseInAppMessaging",
         "FirebaseInstallations",
@@ -1330,7 +1330,7 @@ let package = Package(
 
     .target(
       name: "FirebaseFirestoreTestingSupport",
-      dependencies: ["FirebaseFirestore"],
+      dependencies: ["_FirebaseFirestore"],
       path: "FirebaseTestingSupport/Firestore/Sources",
       publicHeadersPath: "./",
       cSettings: [
