@@ -172,16 +172,16 @@ let package = Package(
       url: "https://github.com/firebase/nanopb.git",
       "2.30909.0" ..< "2.30910.0"
     ),
-//    .package(
-//      name: "abseil",
-//      url: "https://github.com/firebase/abseil-cpp-SwiftPM.git",
-//      "0.20220203.1" ..< "0.20220204.0"
-//    ),
-//    .package(
-//      name: "gRPC",
-//      url: "https://github.com/grpc/grpc-ios.git",
-//      "1.44.0-grpc" ..< "1.45.0-grpc"
-//    ),
+    .package(
+      name: "abseil",
+      url: "https://github.com/ncooke3/abseil-cpp-SwiftPM.git",
+      .branch("main")
+    ),
+    .package(
+      name: "gRPC",
+      url: "https://github.com/ncooke3/grpc-ios.git",
+      .branch("main")
+    ),
     .package(
       name: "OCMock",
       url: "https://github.com/erikdoe/ocmock.git",
@@ -640,8 +640,17 @@ let package = Package(
 
     .target(
       name: "FirebaseFirestoreTarget",
-      dependencies: [.target(name: "FirebaseFirestore",
-                             condition: .when(platforms: [.iOS, .tvOS, .macOS]))],
+      dependencies: [
+        .target(
+            name: "FirebaseFirestore",
+            condition: .when(platforms: [.iOS, .tvOS, .macOS])
+        ),
+        .product(name: "abseil", package: "abseil"),
+        .product(name: "gRPC-C++", package: "gRPC"),
+        .product(name: "nanopb", package: "nanopb"),
+        "FirebaseCore",
+        "leveldb"
+      ],
       path: "SwiftPM-PlatformExclude/FirebaseFirestoreWrap"
     ),
     .binaryTarget(
