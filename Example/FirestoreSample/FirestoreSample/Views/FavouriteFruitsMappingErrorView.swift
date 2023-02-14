@@ -33,7 +33,6 @@ struct FavouriteFruitsMappingErrorView: View {
       List(fruits) { fruit in
         Text(fruit.name)
       }
-      .animation(.default, value: fruits)
       .navigationTitle("Mapping failure")
 
     case let .failure(error):

@@ -42,7 +42,6 @@ struct FavouriteFruitsMappingErrorView2: View {
         .background(Color.red)
       }
     }
-    .animation(.default, value: fruits)
     .navigationTitle("Mapping failure")
     .ignoresSafeArea(edges: .bottom)
   }
