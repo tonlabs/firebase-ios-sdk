@@ -655,7 +655,7 @@ let package = Package(
     ),
     .binaryTarget(
         name: "FirebaseFirestore",
-        url: "https://github.com/ncooke3/binary-firestore/releases/download/0.0.1/FirebaseFirestore.zip",
+        url: "https://github.com/ncooke3/binary-firestore/releases/download/0.0.2/FirebaseFirestore.zip",
         checksum: "fbba73228e2f1f93675a3626da1416dc69caef8abcf9afe17257feb5faacdf74"
     ),
     .target(
