@@ -655,8 +655,8 @@ let package = Package(
     ),
     .binaryTarget(
         name: "FirebaseFirestore",
-        url: "https://github.com/ncooke3/binary-firestore/releases/download/0.0.1/FirebaseFirestore.zip",
-        checksum: "fbba73228e2f1f93675a3626da1416dc69caef8abcf9afe17257feb5faacdf74"
+        url: "https://github.com/ncooke3/binary-firestore/releases/download/0.0.3/FirebaseFirestore.zip",
+        checksum: "3f2d5d627790c06a23e3776848563bb9e83ab2b3a4422bb30e025255dc17b16c"
     ),
     .target(
       name: "FirebaseFirestoreSwiftTarget",
