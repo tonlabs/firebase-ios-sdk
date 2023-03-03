@@ -54,9 +54,6 @@ using firebase::firestore::util::ThrowInvalidArgument;
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// This function forces the linker to include `FSTFirestoreComponent`. See `+[FIRFirestore notCalled]`.
-void FSTIncludeFSTFirestoreComponent(void) {}
-
 @interface FSTFirestoreComponent () <FIRComponentLifecycleMaintainer, FIRLibrary>
 @end
 
@@ -178,5 +175,8 @@ void FSTIncludeFSTFirestoreComponent(void) {}
 }
 
 @end
+
+/// This function forces the linker to include `FSTFirestoreComponent`. See `+[FIRFirestore notCalled]`.
+void FSTIncludeFSTFirestoreComponent(void) {}
 
 NS_ASSUME_NONNULL_END
