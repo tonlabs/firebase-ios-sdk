@@ -58,4 +58,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @end
 
+void FSTIncludeFSTFirestoreComponent(void);
+
 NS_ASSUME_NONNULL_END
