@@ -44,7 +44,13 @@ class TestingHooks final {
    * registered with `OnExistenceFilterMismatch()`.
    */
   struct ExistenceFilterMismatchInfo {
+    /** The number of documents that matched the query in the local cache. */
     int local_cache_count = -1;
+
+    /**
+     * The number of documents that matched the query on the server, as
+     * specified in the `ExistenceFilter` message's `count` field.
+     */
     int existence_filter_count = -1;
   };
 
@@ -79,14 +85,14 @@ class TestingHooks final {
    * could still occur _after_ unregistering.
    */
   std::shared_ptr<api::ListenerRegistration> OnExistenceFilterMismatch(
-      ExistenceFilterMismatchCallback);
+      ExistenceFilterMismatchCallback callback);
 
   /**
    * Invokes all currently-registered `OnExistenceFilterMismatch` callbacks
    * synchronously.
    * @param info Information about the existence filter mismatch.
    */
-  void NotifyOnExistenceFilterMismatch(const ExistenceFilterMismatchInfo&);
+  void NotifyOnExistenceFilterMismatch(const ExistenceFilterMismatchInfo& info);
 
  private:
   TestingHooks() = default;
