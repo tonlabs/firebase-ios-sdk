@@ -96,8 +96,14 @@ NSString *const TestFIID = @"TestFIID";
   self.uploader = [[FIRCLSReportUploader alloc] initWithManagerData:self.managerData];
 }
 
-- (NSString *)resourcePath {
-  return [[NSBundle bundleForClass:[self class]] resourcePath];
+- (NSString*)resourcePath {
+#if SWIFT_PACKAGE
+  NSBundle* bundle = SWIFTPM_MODULE_BUNDLE;
+  return [bundle.resourcePath stringByAppendingPathComponent:@"Data"];
+#else
+  NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+  return bundle.resourcePath;
+#endif
 }
 
 - (FIRCLSInternalReport *)createReport {
