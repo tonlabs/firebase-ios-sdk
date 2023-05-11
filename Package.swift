@@ -667,6 +667,8 @@ let package = Package(
         .product(name: "nanopb", package: "nanopb"),
         "FirebaseCore",
         "leveldb",
+        "FirebaseCoreExtension",
+        "FirebaseSharedSwift",
       ],
       path: "SwiftPM-PlatformExclude/FirebaseFirestoreWrap"
     ),
