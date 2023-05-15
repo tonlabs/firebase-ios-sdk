@@ -29,7 +29,9 @@
  #import "GPBProtocolBuffers_RuntimeSupport.h"
 #endif
 
- #import "GtalkExtensions.pbobjc.h"
+#import <libkern/OSAtomic.h>
+
+#import "GtalkExtensions.pbobjc.h"
 // @@protoc_insertion_point(imports)
 
 #pragma clang diagnostic push
